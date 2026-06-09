@@ -34,7 +34,7 @@ jobs:
       # Eğer loglarda "belirsiz / engellendi" görürsen aşağıdaki satırın
       # başındaki # işaretini kaldır (tarayıcıyı kurar, çalışmayı ~1-2 dk uzatır).
       - name: Tarayıcı kur (yedek yol)
-      run: python -m playwright install --with-deps chromium
+        run: python -m playwright install --with-deps chromium
 
       - name: Stok kontrolü
         env:
