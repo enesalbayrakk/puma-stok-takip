@@ -1,0 +1,4 @@
+requests>=2.31
+# Yedek (anti-bot) yol için. Sadece requests engellenirse gerekir;
+# requests yeterliyse tarayıcı kurmadan da çalışır.
+playwright>=1.44
